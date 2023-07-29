@@ -1,0 +1,394 @@
+/*
+font-family: 'Kaushan Script', cursive;
+font-family: 'Montserrat', sans-serif;
+font-family: 'Poppins', sans-serif;
+*/
+
+/* // X-Small devices (portrait phones, less than 576px) */
+@media (min-width: 380px) and (max-width:575px) {
+
+  /* navbar part html start */
+  .navbar .find {
+    display: none;
+  }
+
+  /* navbar part html end */
+
+  /* Banner Part CSS Start */
+  .banner {
+    padding: 200px 0;
+  }
+
+  .banner_content h4 {
+    font-size: 5.5rem;
+  }
+
+  .banner_content a {
+    font-size: 1.6rem;
+    padding: 15px 35px;
+    margin-top: 28px;
+  }
+
+  /* Banner Part CSS end */
+
+  /* Scroll Button Part CSS Start */
+  .scroll_btn .button a {
+    font-size: 1.4rem;
+  }
+
+  /* Scroll Button Part CSS End */
+
+  /* Common Head Part CSS Start */
+  .common_head h4 {
+    font-size: 2.1rem;
+  }
+
+  .common_head p {
+    font-size: 1.5rem;
+  }
+
+  /* Common Head Part CSS End */
+
+  /* Service Part CSS Start */
+  .ser_content {
+    padding: 65px 0;
+  }
+
+  .ser_content ion-icon {
+    font-size: 6.4rem;
+    border-radius: 15px;
+  }
+
+  .ser_content h4 {
+    font-size: 1.8rem;
+  }
+
+  .ser_content p {
+    font-size: 1.4rem;
+  }
+
+  .ser_content a {
+    font-size: 1.3rem;
+  }
+
+  /* Service Part CSS End */
+
+  /* Gallery Part CSS Start */
+
+  .glry_grid .gly-1 {
+    grid-column: 1 / 6;
+  }
+
+  .glry_grid .gly-2 {
+    grid-column: 6 / -1;
+  }
+
+  .glry_grid .gly-3 {
+    grid-column: 1 / 6;
+  }
+
+  .glry_grid .gly-4 {
+    grid-column: 6 / -1;
+  }
+
+  .glry_grid .gly-5 {
+    grid-column: 1 / 6;
+  }
+
+  .glry_grid .gly-6 {
+    grid-column: 6 / -1;
+  }
+
+  .glry_grid .gly-7 {
+    grid-column: 1 / 6;
+  }
+
+  .glry_grid .gly-8 {
+    grid-column: 6 / -1;
+  }
+
+  .glry_grid .gly-9 {
+    grid-column: 1 / 6;
+  }
+
+  .glry_grid .gly-10 {
+    grid-column: 6 / -1;
+  }
+
+  .gallary .bottom_btn a {
+    font-size: 1.6rem;
+  }
+
+  /* Gallery Part CSS End */
+
+  /* Testimonial Part CSS Start */
+  .testi_content p {
+    font-size: 1.6rem;
+  }
+
+  .testi_content .client_info .client_text P {
+    font-size: 1.6rem;
+  }
+
+  .testi_content .client_info .client_text h4 {
+    font-size: 1.6rem;
+  }
+
+  /* Testimonial Part CSS End */
+
+  /* Client Part CSS Start */
+  .client_grid .brnd_1 {
+    grid-column: 1 / 5;
+  }
+
+  .client_grid .brnd_2 {
+    grid-column: 5 / -1;
+  }
+
+  .client_grid .brnd_3 {
+    grid-column: 1 / 5;
+  }
+
+  .client_grid .brnd_4 {
+    grid-column: 5 / -1;
+  }
+
+  .client_grid .brnd_5 {
+    grid-column: 1 / 5;
+  }
+
+  .client_grid .brnd_6 {
+    grid-column: 5 / -1;
+  }
+
+  .client_grid .brnd_7 {
+    grid-column: 1 / 5;
+  }
+
+  .client_grid .brnd_8 {
+    grid-column: 5 / -1;
+  }
+
+  .brnd_4,
+  .brnd_6 {
+    width: 50% !important;
+  }
+
+  .brnd_7 {
+    width: 35% !important;
+  }
+
+  .client_grid.grd_1 {
+    margin-top: 55px;
+    margin-bottom: 55px;
+  }
+
+  /* Client Part CSS end */
+
+  /* Team Part CSS Start */
+  .team_grid {
+    gap: 10px;
+  }
+
+  .team_grid .team_content {
+    margin: 40px 0;
+  }
+
+  .team_grid .box_1 {
+    grid-column: 1 / 6;
+  }
+
+  .team_grid .box_2 {
+    grid-column: 6 / -1;
+  }
+
+  .team_grid .box_3 {
+    grid-column: 1 / 6;
+  }
+
+  .team_grid .box_4 {
+    grid-column: 6 / -1;
+  }
+
+  .team_grid .box_5 {
+    grid-column: 4 / 8;
+  }
+
+  .team_grid .team_content span {
+    height: 50px;
+  }
+
+  .team_grid .team_content h4 {
+    font-size: 1.5rem;
+  }
+
+  /* Team Part CSS End */
+
+  /* Join Part CSS Start */
+  .join_btn a {
+    font-size: 1.6rem;
+    padding: 12px 23px;
+  }
+
+  /* Join Part CSS End */
+
+  /* Footer Part CSS Start */
+
+  .ftr_head h4 {
+    font-size: 2.1rem;
+  }
+
+  .footer_content .description p span {
+    display: none;
+  }
+
+  .ftr_brand .brand_grid .ftr_bnd-1 {
+    grid-column: 2 / 4;
+  }
+
+  .ftr_brand .brand_grid .ftr_bnd-2 {
+    grid-column: 4 / 6;
+  }
+
+  .ftr_brand .brand_grid .ftr_bnd-3 {
+    grid-column: 6 / 8;
+  }
+
+  .ftr_brand .brand_grid .ftr_bnd-4 {
+    grid-column: 2 / 8;
+  }
+
+  /* Footer Part CSS End */
+
+}
+
+/* // Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+
+  /* Navbar Part CSS Start */
+  .navbar .find {
+    display: none;
+  }
+
+  /* Navbar Part CSS End */
+
+  /* Banner Part CSS Start */
+  .banner {
+    padding: 180px 0;
+  }
+
+  .banner_content h4 {
+    font-size: 6rem;
+  }
+
+  .banner_content a {
+    font-size: 1.7rem;
+    padding: 12px 30px;
+  }
+
+  .scroll_btn .button a {
+    font-size: 1.4rem;
+  }
+
+  /* Banner Part CSS End */
+
+  /* Common Head Part CSS Start */
+  .common_head h4 {
+    font-size: 2.5rem;
+  }
+
+  .common_head p {
+    font-size: 1.6rem;
+  }
+
+  /* Common Head Part CSS End */
+
+  /* Service Part CSS Start */
+  .ser_content {
+    padding: 55px 0;
+  }
+
+  .ser_content h4 {
+    font-size: 1.9rem;
+  }
+
+  .ser_content p {
+    font-size: 1.5rem;
+  }
+
+  .ser_content a {
+    font-size: 1.4rem;
+    padding: 8px 17px;
+  }
+
+  /* Service Part CSS End */
+
+  /* Gallery Part CSS Start */
+  .glry_grid .gly-1 {
+    grid-column: 2 / 4;
+  }
+
+  .glry_grid .gly-2 {
+    grid-column: 4 / 6;
+  }
+
+  .glry_grid .gly-3 {
+    grid-column: 6 / 8;
+  }
+
+  .glry_grid .gly-4 {
+    grid-column: 8 / 10;
+  }
+
+  .glry_grid .gly-5 {
+    grid-column: 2 / 4;
+  }
+
+  .glry_grid .gly-6 {
+    grid-column: 4 / 6;
+  }
+
+  .glry_grid .gly-7 {
+    grid-column: 6 / 8;
+  }
+
+  .glry_grid .gly-8 {
+    grid-column: 8 / 10;
+  }
+
+  .glry_grid .gly-9 {
+    grid-column: 3 / 5;
+  }
+
+  .glry_grid .gly-10 {
+    grid-column: 7 / 9;
+  }
+
+  .gallary .bottom_btn a {
+    font-size: 1.6rem;
+    padding: 10px 20px;
+  }
+
+  /* Gallery Part CSS End */
+
+}
+
+/* // Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+  ...
+}
+
+/* // Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+  ...
+}
+
+/* // X-Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+  ...
+}
+
+/* // XX-Large devices (larger desktops, 1400px and up) */
+@media (min-width: 1400px) {
+  ...
+}
