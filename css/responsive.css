@@ -607,7 +607,37 @@ font-family: 'Poppins', sans-serif;
 }
 
 /* // XX-Large devices (larger desktops, 1400px and up) */
-@media (min-width: 1400px) and (max-width: 1900px) {
+@media (min-width: 1400px) and (max-width: 1899px) {
+
+  /* Navbar Part CSS Start */
+  .navbar .nav-logo {
+    margin-right: 160px;
+  }
+
+  /* Navbar Part CSS End */
+
+  /* footer Part CSS Start */
+  .ftr_brand .brand_grid .ftr_bnd-1 {
+    grid-column: 2 / 3;
+  }
+
+  .ftr_brand .brand_grid .ftr_bnd-2 {
+    grid-column: 3 / 4;
+  }
+
+  .ftr_brand .brand_grid .ftr_bnd-3 {
+    grid-column: 4 / 5;
+  }
+
+  .ftr_brand .brand_grid .ftr_bnd-4 {
+    grid-column: 5 / 8;
+  }
+
+  /* footer Part CSS End */
+
+}
+
+@media (min-width: 1900px) and (max-width: 2100px) {
 
   /* Navbar Part CSS Start */
   .navbar .nav-logo {
